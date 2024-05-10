@@ -24,7 +24,7 @@
 					<TextInput
 						v-model="password"
 						:isCorrect="!password.match(/\S/g) && tryValidation"
-						:type="'text'"
+						:type="'password'"
 						:id="'password'"
 						:placeholder="'Пароль'"
 					>
